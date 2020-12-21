@@ -1,3 +1,4 @@
 #allow untrusted_app_25 system_server_tmpfs:file { read };
 allow untrusted_app persist_camera_prop:file { read open getattr map};
 
+allow untrusted_app_25 hid_gadget_device:chr_file rw_file_perms;

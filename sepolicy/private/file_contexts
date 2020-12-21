@@ -40,3 +40,9 @@
 /(product|system/product)/vendor_overlay/[0-9]+/bin/hw/android\.hardware\.health@2\.0-service    u:object_r:hal_health_default_exec:s0
 # Wifi - vendor overlay
 /(product|system/product)/vendor_overlay/[0-9]+/lib/modules/qca_cld3_wlan\.ko    u:object_r:vendor_file:s0
+
+# USB HID Gadget
+/dev/hidg[0-9]*    u:object_r:hid_gadget_device:s0
+
+
+
